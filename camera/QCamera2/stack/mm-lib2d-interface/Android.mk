@@ -18,7 +18,6 @@ ifneq ($(TARGET_KERNEL_VERSION),$(filter $(TARGET_KERNEL_VERSION),3.18 4.4 4.9))
             system/memory/libion/kernel-headers
   endif
 endif
-LOCAL_HEADER_LIBRARIES += generated_kernel_headers
 
 IMGLIB_HEADER_PATH := $(TARGET_OUT_INTERMEDIATES)/include/mm-camera/imglib
 
@@ -29,6 +28,7 @@ LOCAL_C_INCLUDES += \
     $(LOCAL_PATH)/../mm-camera-interface/inc \
 
 LOCAL_HEADER_LIBRARIES := libutils_headers
+LOCAL_HEADER_LIBRARIES += generated_kernel_headers
 ifeq ($(strip $(TARGET_USES_ION)),true)
     LOCAL_CFLAGS += -DUSE_ION
 endif
