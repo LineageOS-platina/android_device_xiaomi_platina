@@ -95,8 +95,8 @@ BOARD_KERNEL_CMDLINE := \
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
-TARGET_KERNEL_CONFIG := platina_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
+TARGET_FORCE_PREBUILT_KERNEL := true
+TARGET_PREBUILT_KERNEL := device/xiaomi/platina-kernel/Image.gz-dtb
 
 # Media
 TARGET_USES_ION := true
