@@ -193,7 +193,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
 # Kernel
-PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/platina-kernel/sdm660/kernel-headers
+include device/xiaomi/platina-kernel/kernel.mk
 
 # Keylayout
 PRODUCT_COPY_FILES += \
