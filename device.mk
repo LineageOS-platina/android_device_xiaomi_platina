@@ -392,7 +392,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.zram \
-    init.device.rc
+    init.device.rc \
+    logcat.rc
 
 PRODUCT_PACKAGES += \
     e2fsck_ramdisk \
