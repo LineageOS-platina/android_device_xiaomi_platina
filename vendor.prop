@@ -152,6 +152,9 @@ vendor.gralloc.enable_fb_ubwc=1
 # Fastbootd
 ro.fastbootd.available=true
 
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
