@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
 # Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# CAFIMSAdapter
+PRODUCT_PACKAGES += \
+    CAFIMSAdapter
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service_32.lineage
