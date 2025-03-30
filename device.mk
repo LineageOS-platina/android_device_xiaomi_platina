@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# CAFIMSAdapter
+PRODUCT_PACKAGES += \
+    CAFIMSAdapter
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
