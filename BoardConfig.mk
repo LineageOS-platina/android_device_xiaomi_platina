@@ -105,9 +105,6 @@ BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_CONFIG := platina_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # Media
 TARGET_USES_ION := true
 
