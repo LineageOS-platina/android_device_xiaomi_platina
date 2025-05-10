@@ -80,7 +80,6 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_platina
-TARGET_RECOVERY_DEVICE_MODULES := libinit_platina
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
