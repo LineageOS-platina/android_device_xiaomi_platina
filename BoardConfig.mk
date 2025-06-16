@@ -9,9 +9,6 @@ DEVICE_PATH := device/xiaomi/platina
 # A/B
 AB_OTA_UPDATER := false
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
-
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
