@@ -9,9 +9,6 @@ DEVICE_PATH := device/xiaomi/platina
 # A/B
 AB_OTA_UPDATER := false
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
-
 # Audio
 AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := false
 AUDIO_FEATURE_ENABLED_GEF_SUPPORT := true
