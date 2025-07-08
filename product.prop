@@ -3,6 +3,9 @@ persist.sysui.disableBlur=1
 ro.sf.blurs_are_expensive=0
 ro.surface_flinger.supports_background_blur=0
 
+# BPF
+ro.bpf.kver_override=5.4.186
+
 # Camera
 persist.vendor.bokeh.switch.lux=290
 persist.vendor.camera.depth.focus.cb=0
