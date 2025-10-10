@@ -207,6 +207,10 @@ ro.vendor.use_data_netmgrd=true
 # RCS
 persist.rcs.supported=1
 
+# ScrollOptimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # Sensor
 ro.vendor.sdk.sensors.gestures=false
 ro.vendor.sensors.cmc=false
