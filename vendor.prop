@@ -185,6 +185,12 @@ persist.vendor.data.mode=concurrent
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+
+# QTI Mem Optimisation
+persist.vendor.sys.memplus.enable=false
+ro.vendor.qti.sys.fw.bg_apps_limit=24
+ro.vendor.qti.sys.fw.bservice_limit=48
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
