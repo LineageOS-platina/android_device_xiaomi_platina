@@ -4,6 +4,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "vendor/xiaomi/platina",
+    ],
 }
 
 install_symlink {
