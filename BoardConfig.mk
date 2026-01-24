@@ -97,6 +97,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_FORCE_PREBUILT_KERNEL := true
 TARGET_PREBUILT_KERNEL := device/xiaomi/platina-kernel/Image.gz-dtb
+TARGET_PREBUILT_KERNEL_HEADERS := device/xiaomi/platina-kernel/kernel-headers.tar.gz
 
 # Media
 TARGET_USES_ION := true
